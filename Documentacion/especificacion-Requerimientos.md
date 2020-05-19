@@ -4,9 +4,9 @@
 ## Revisiones:
 
 |Fecha|Versión|Descripción|Autores|
-|------|------|-----------|-------|----
-26-08-19|0|Levantamiento de requerimientos|Mateo Balza, Maikol Menco, Jose Gonzales, Jaime Alvarez|
-23-09-19|0|Presentación del proyecto|Mateo Balza, Maikol Menco, Jose Gonzales, Jaime Alvarez|
+|------|------|-----------|-------|
+|26-08-19|0|Levantamiento de requerimientos|Mateo Balza, Maikol Menco, Jose Gonzales, Jaime Alvarez|
+|23-09-19|0|Presentación del proyecto|Mateo Balza, Maikol Menco, Jose Gonzales, Jaime Alvarez|
 
 ----
 
