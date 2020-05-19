@@ -4,9 +4,9 @@
 ## Revisiones:
 
 |Fecha|Versión|Descripción|Autores|
-|------|-------|-----------|-------|----
-26-08-19|0|Levantamiento de requerimientos|Mateo Balza, Maikol Menco, Jose Gonzales, Jaime Alvarez
-23-09-19|0|Presentación del proyecto|Mateo Balza, Maikol Menco, Jose Gonzales, Jaime Alvarez
+|------|------|-----------|-------|----
+26-08-19|0|Levantamiento de requerimientos|Mateo Balza, Maikol Menco, Jose Gonzales, Jaime Alvarez|
+23-09-19|0|Presentación del proyecto|Mateo Balza, Maikol Menco, Jose Gonzales, Jaime Alvarez|
 
 ----
 
@@ -98,7 +98,7 @@ Este sistema permitirá organizar los procesos en la institución, enfocandose e
 |Depende el rol tendra acceso a ciertas rutas de la pagina
 
 |Descripción:|El usuario deberá sumistrar los datos necesarios para hacer el registro en el aplicativo|
-|-----------|--------------------------------------|
-|Proceso:|El usuario deberá ingresar los datos que se le soliciten y aceptar los terminos y condiciones del aplicativo|
-|Efecto Colateral|Qué el usuario ya se encuentre registrado o sumistre sus datos correctamente.
+|------------|------------------------------------|
+|**Proceso:**|El usuario deberá ingresar los datos que se le soliciten y aceptar los terminos y condiciones del aplicativo|
+|**Efecto Colateral**|Qué el usuario ya se encuentre registrado o sumistre sus datos correctamente.
 
