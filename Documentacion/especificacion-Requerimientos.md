@@ -195,4 +195,6 @@ Este sistema permitirá organizar los procesos en la institución, enfocandose e
 |**Proceso:**|**Él usuario deberá suministrar su usuario y contraseña propio**|
 |**Efecto Colateral**|**Él usuario olvide su contraseña o se encuentre bloquedo.**
 
+7.
+
 
