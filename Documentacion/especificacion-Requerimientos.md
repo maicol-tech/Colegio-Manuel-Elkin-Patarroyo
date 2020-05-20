@@ -84,7 +84,7 @@ Este sistema permitirá organizar los procesos en la institución, enfocandose e
 ### 3. Requerimientos específicos:
 
 #### 3.1 Requerimientos funcionales:
-
+1.
 * Implementación de aplicativo web para el control de notas del C.M.E.P
 
 * Plantilla SRS–Especificación de Requerimientos
@@ -101,4 +101,19 @@ Este sistema permitirá organizar los procesos en la institución, enfocandose e
 |------------|------------------------------------|
 |**Proceso:**|El usuario deberá ingresar los datos que se le soliciten y aceptar los terminos y condiciones del aplicativo|
 |**Efecto Colateral**|Qué el usuario ya se encuentre registrado o sumistre sus datos correctamente.
+
+2.
+
+|Código|Nombre|Fecha|Grado necesidad|
+|------|------|-----|---------------|
+|RF-002|Login|22-10-2019|Alto|
+|Entrada|Fuente|Salida|Destino|
+|Datos del usuario|Base de datos|Modulo login|Base de datos|
+|Restricciones||||
+|Solo podrá tener acceso a ciertos modulos segun su rol
+
+|Descripción:|Él usuario debera suministrar el usuario que se creó en el modulo de registro|
+|------------|------------------------------------|
+|**Proceso:**|**Él usuario deberá suministrar su usuario y contraseña propio**|
+|**Efecto Colateral**|**Él usuario olvide su contraseña o se encuentre bloquedo.**
 
