@@ -97,23 +97,102 @@ Este sistema permitirá organizar los procesos en la institución, enfocandose e
 |Restricciones||||
 |Depende el rol tendra acceso a ciertas rutas de la pagina
 
-|Descripción:|El usuario deberá sumistrar los datos necesarios para hacer el registro en el aplicativo|
+|Descripción:|**El usuario deberá sumistrar los datos necesarios para hacer el registro en el aplicativo**|
 |------------|------------------------------------|
-|**Proceso:**|El usuario deberá ingresar los datos que se le soliciten y aceptar los terminos y condiciones del aplicativo|
-|**Efecto Colateral**|Qué el usuario ya se encuentre registrado o sumistre sus datos correctamente.
+|**Proceso:**|**El usuario deberá ingresar los datos que se le soliciten y aceptar los terminos y condiciones del aplicativo**|
+|**Efecto Colateral**|**Qué el usuario ya se encuentre registrado o sumistre sus datos correctamente.**
 
 2.
+
+* Implementación de aplicativo web para el control de notas del C.M.E.P
+
+* Plantilla SRS–Especificación de Requerimientos
 
 |Código|Nombre|Fecha|Grado necesidad|
 |------|------|-----|---------------|
 |RF-002|Login|22-10-2019|Alto|
-|Entrada|Fuente|Salida|Destino|
-|Datos del usuario|Base de datos|Modulo login|Base de datos|
-|Restricciones||||
-|Solo podrá tener acceso a ciertos modulos segun su rol
+|**Entrada**|**Fuente**|**Salida**|**Destino**|
+|**Datos del usuario**|Base de datos|Modulo login|Base de datos|
+|**Restricciones**||||
+|**Solo podrá tener acceso a ciertos modulos segun su rol**
 
 |Descripción:|Él usuario debera suministrar el usuario que se creó en el modulo de registro|
 |------------|------------------------------------|
 |**Proceso:**|**Él usuario deberá suministrar su usuario y contraseña propio**|
 |**Efecto Colateral**|**Él usuario olvide su contraseña o se encuentre bloquedo.**
+
+3.
+
+* Implementación de aplicativo web para el control de notas del C.M.E.P
+
+* Plantilla SRS–Especificación de Requerimientos
+
+|Código|Nombre|Fecha|Grado necesidad|
+|------|------|-----|---------------|
+|RF-003|Creación de roles|11-09-2019|Alto|
+|**Entrada**|**Fuente**|**Salida**|**Destino**|
+|**Datos del usuario**|Base de datos|lista de roles|Base de datos|
+|**Restricciones**||||
+|**Solo podrá tener acceso a ciertos modulos segun su rol**
+
+|Descripción:|Él usuario debera suministrar el usuario que se creó en el modulo de registro|
+|------------|------------------------------------|
+|**Proceso:**|**Él usuario deberá suministrar su usuario y contraseña propio segun su rol**|
+|**Efecto Colateral**|**Él usuario olvide su contraseña o se equivoque de rol.**
+
+4.
+* Implementación de aplicativo web para el control de notas del C.M.E.P
+
+* Plantilla SRS–Especificación de Requerimientos
+
+|Código|Nombre|Fecha|Grado necesidad|
+|------|------|-----|---------------|
+|RF-004|Sección de información|11-09-2019|Alto|
+|**Entrada**|**Fuente**|**Salida**|**Destino**|
+|**Información y eventos de la institución**|Base de datos|Sección de información|Base de datos|
+|**Restricciones**||||
+|**Solo podrá ser administrado por el rector**
+
+|Descripción:|**Él rector hará los anuncios de fechas importantes**|
+|------------|------------------------------------|
+|**Proceso:**|**Él rector debera respetar todos los horarios establecidos internamente**|**Él rector se equivoque al momento de organizar algun evento.**
+
+5.
+
+* Implementación de aplicativo web para el control de notas del C.M.E.P
+
+* Plantilla SRS–Especificación de Requerimientos
+
+|Código|Nombre|Fecha|Grado necesidad|
+|------|------|-----|---------------|
+|RF-005|sección de comentarios|12-11-2019|Alto|
+|**Entrada**|**Fuente**|**Salida**|**Destino**|
+|**Descrpción detellada del comentario**|Rol docente|Comentario puntual de algun estudiante|Base de datos|
+|**Restricciones**||||
+|**Ninguna**
+
+|Descripción:|Él Docente deberá hacer una explicación detallada de lo sucedido con el estudiante|
+|------------|------------------------------------|
+|**Proceso:**|**Él docente explicará detalladamente los acontecimientos el alumno**|
+|**Efecto Colateral**|**Él docente se equivoque de alumno**
+
+6.
+
+* Implementación de aplicativo web para el control de notas del C.M.E.P
+
+* Plantilla SRS–Especificación de Requerimientos
+
+|Código|Nombre|Fecha|Grado necesidad|
+|------|------|-----|---------------|
+|RF-002|Login|22-10-2019|Alto|
+|**Entrada**|**Fuente**|**Salida**|**Destino**|
+|**Datos del usuario**|Base de datos|Modulo login|Base de datos|
+|**Restricciones**||||
+|**Solo podrá tener acceso a ciertos modulos segun su rol**
+
+|Descripción:|Él usuario debera suministrar el usuario que se creó en el modulo de registro|
+|------------|------------------------------------|
+|**Proceso:**|**Él usuario deberá suministrar su usuario y contraseña propio**|
+|**Efecto Colateral**|**Él usuario olvide su contraseña o se encuentre bloquedo.**
+
 
