@@ -184,17 +184,139 @@ Este sistema permitirá organizar los procesos en la institución, enfocandose e
 
 |Código|Nombre|Fecha|Grado necesidad|
 |------|------|-----|---------------|
-|RF-002|Login|22-10-2019|Alto|
+|RF-006|Registro de sedes|15-10-2019|Alto|
 |**Entrada**|**Fuente**|**Salida**|**Destino**|
-|**Datos del usuario**|Base de datos|Modulo login|Base de datos|
+|**Datos de las sedes**|Base de datos|Módulo de sedes|Base de datos|
 |**Restricciones**||||
-|**Solo podrá tener acceso a ciertos modulos segun su rol**
+|**El administrador de cada sede delegará los permisos**
 
-|Descripción:|Él usuario debera suministrar el usuario que se creó en el modulo de registro|
+|Descripción:|Él administrador deberá especificar la sede a la cual pertenece|
 |------------|------------------------------------|
-|**Proceso:**|**Él usuario deberá suministrar su usuario y contraseña propio**|
-|**Efecto Colateral**|**Él usuario olvide su contraseña o se encuentre bloquedo.**
+|**Proceso:**|**Él usuario deberá suministrar su usuario y contraseña propio y sede a la que pertenece**|
+|**Efecto Colateral**|**Él usuario olvide su contraseña, se encuentre bloquedo o pertenezca a una o más sedes.**
 
 7.
+
+* Implementación de aplicativo web para el control de notas del C.M.E.P
+
+* Plantilla SRS–Especificación de Requerimientos
+
+|Código|Nombre|Fecha|Grado necesidad|
+|------|------|-----|---------------|
+|RF-007|Usabilidad|15-10-2019|Alto|
+|**Descripción:**||||
+|**Todos los roles podrán interactuar de forma continua.**
+
+8.
+
+* Implementación de aplicativo web para el control de notas del C.M.E.P
+
+* Plantilla SRS–Especificación de Requerimientos
+
+|Código|Nombre|Fecha|Grado necesidad|
+|------|------|-----|---------------|
+|RF-008|Adaptabilidad|15-10-2019|Alto|
+|**Descripción:**||||
+|**El software será responsive es decir se adaptará a cualquier tamaño de pantalla.**
+
+9.
+
+* Implementación de aplicativo web para el control de notas del C.M.E.P
+
+* Plantilla SRS–Especificación de Requerimientos
+
+|Código|Nombre|Fecha|Grado necesidad|
+|------|------|-----|---------------|
+|RF-009|Soporte|15-10-2019|Alto|
+|**Descripción:**||||
+|**Se le brindará su respectivo soporte de actualizaciones.**
+
+10.
+
+* Implementación de aplicativo web para el control de notas del C.M.E.P
+
+* Plantilla SRS–Especificación de Requerimientos
+
+|Código|Nombre|Fecha|Grado necesidad|
+|------|------|-----|---------------|
+|RF-010|Fiabilidad|15-10-2019|Alto|
+|**Descripción:**||||
+|**El software contará con backup para la información.**
+
+11.
+
+* Implementación de aplicativo web para el control de notas del C.M.E.P
+
+* Plantilla SRS–Especificación de Requerimientos
+
+|Código|Nombre|Fecha|Grado necesidad|
+|------|------|-----|---------------|
+|RF-011|Disponibilidad|15-10-2019|Alto|
+|**Descripción:**||||
+|**El software esta en la capacidad de satisfacer las necesidades de la institución.**
+
+#### 3.2 Requerimientos no funcionales:
+
+#### 3.3 Requerimientos interfaz de usuario:
+
+* Implementación de aplicativo web para el control de notas del C.M.E.P
+
+* Plantilla SRS–Especificación de Requerimientos
+
+|Código|Nombre|Fecha|Grado necesidad|
+|------|------|-----|---------------|
+|RF-001|Registro|15-10-2019|Alto|
+|**Descripción:**||||
+|**Él usuario deberá especificar su rol y luego llenar los respectivos datos para llenar el registro.**
+
+* Implementación de aplicativo web para el control de notas del C.M.E.P
+
+* Plantilla SRS–Especificación de Requerimientos
+
+|Código|Nombre|Fecha|Grado necesidad|
+|------|------|-----|---------------|
+|RF-002|Logín|15-10-2019|Alto|
+|**Descripción:**||||
+|**Él usuario deberá colocar su usuario y contraseña y podrá acceder a la información según su rol.**
+
+* Implementación de aplicativo web para el control de notas del C.M.E.P
+
+* Plantilla SRS–Especificación de Requerimientos
+
+|Código|Nombre|Fecha|Grado necesidad|
+|------|------|-----|---------------|
+|RF-003|Usuario administrador|15-10-2019|Alto|
+|**Descripción:**||||
+|**Tendra control de total del sitio.**
+
+* Implementación de aplicativo web para el control de notas del C.M.E.P
+
+* Plantilla SRS–Especificación de Requerimientos
+
+|Código|Nombre|Fecha|Grado necesidad|
+|------|------|-----|---------------|
+|RF-004|Interfaz de eventos|15-10-2019|Alto|
+|**Descripción:**||||
+|**Él administrador deberá organizar el cronograma de actividades de la institución.**
+
+### 4. Hardware,Software y servicios necesarios para el desarrollo del software.
+
+#### 4.1 Hardware:
+
+|Ref|Componente|cantidad|Descripción|
+|---|----------|--------|-----------|
+|01|Portatil|5|Preferiblemente Ram 4 o más, intel o amd 5. 1 tera Disco|
+|02|Mouse|5|Óptico inalambrico o cableado|
+
+#### 4.2 Software:
+
+|Ref|Componente|cantidad|Descripción|
+|---|----------|--------|-----------|
+|01|Registro|1|Los usuarios suministraran la información necesaria para acceder al software.|
+|02|Login|1|Se accederá al software segun su rol.|
+|03|Base de datos|1|Se guardara toda la información de los usuarios.|
+|04|Módulo de eventos|1|Se darán a conocer todos los eventos(Culturales y académicos de la institución.)|
+
+
 
 
