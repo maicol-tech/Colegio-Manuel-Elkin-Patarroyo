@@ -1,0 +1,52 @@
+body{
+  background: url(img/fondo2.jpg)center;
+  background-size: cover;
+}
+.box{
+  margin-left: 430px;
+  margin-top: 66px;
+  text-align: center;
+  border: 1px solid black;
+  height: 500px;
+  width: 450px;
+  border-radius: 10px;
+}
+img{
+  margin-top: -50px;
+}
+#ti{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.3333;
+  font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+}
+#text{
+  font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+  margin-top: 80px;
+  margin-left: 60px;
+  margin-right: 60px;
+  text-align: left;
+}
+.box input[type="password"]{
+  background: transparent;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 12px 0px;
+  width: 325px;
+  margin-top: 20px;
+}
+.box input[type="submit"]{
+  margin-top: 50px;
+  padding: 8px 18px;
+  float: right;
+  margin-right: 62px;
+  color: white;
+  font: sans-serif;
+  background: transparent;
+  border-radius: 20px;
+  border-color: aqua;
+}
