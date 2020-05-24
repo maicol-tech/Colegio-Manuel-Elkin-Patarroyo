@@ -195,7 +195,7 @@ Este sistema permitirá organizar los procesos en la institución, enfocandose e
 |**Proceso:**|**Él usuario deberá suministrar su usuario y contraseña propio y sede a la que pertenece**|
 |**Efecto Colateral**|**Él usuario olvide su contraseña, se encuentre bloquedo o pertenezca a una o más sedes.**
 
-7.
+#### 3.2 Requerimientos no funcionales:
 
 * Implementación de aplicativo web para el control de notas del C.M.E.P
 
@@ -203,7 +203,7 @@ Este sistema permitirá organizar los procesos en la institución, enfocandose e
 
 |Código|Nombre|Fecha|Grado necesidad|
 |------|------|-----|---------------|
-|RF-007|Usabilidad|15-10-2019|Alto|
+|RF-001|Usabilidad|15-10-2019|Alto|
 |**Descripción:**||||
 |**Todos los roles podrán interactuar de forma continua.**
 
@@ -215,7 +215,7 @@ Este sistema permitirá organizar los procesos en la institución, enfocandose e
 
 |Código|Nombre|Fecha|Grado necesidad|
 |------|------|-----|---------------|
-|RF-008|Adaptabilidad|15-10-2019|Alto|
+|RF-002|Adaptabilidad|15-10-2019|Alto|
 |**Descripción:**||||
 |**El software será responsive es decir se adaptará a cualquier tamaño de pantalla.**
 
@@ -227,7 +227,7 @@ Este sistema permitirá organizar los procesos en la institución, enfocandose e
 
 |Código|Nombre|Fecha|Grado necesidad|
 |------|------|-----|---------------|
-|RF-009|Soporte|15-10-2019|Alto|
+|RF-003|Soporte|15-10-2019|Alto|
 |**Descripción:**||||
 |**Se le brindará su respectivo soporte de actualizaciones.**
 
@@ -239,7 +239,7 @@ Este sistema permitirá organizar los procesos en la institución, enfocandose e
 
 |Código|Nombre|Fecha|Grado necesidad|
 |------|------|-----|---------------|
-|RF-010|Fiabilidad|15-10-2019|Alto|
+|RF-004|Fiabilidad|15-10-2019|Alto|
 |**Descripción:**||||
 |**El software contará con backup para la información.**
 
@@ -251,11 +251,31 @@ Este sistema permitirá organizar los procesos en la institución, enfocandose e
 
 |Código|Nombre|Fecha|Grado necesidad|
 |------|------|-----|---------------|
-|RF-011|Disponibilidad|15-10-2019|Alto|
+|RF-005|Disponibilidad|15-10-2019|Alto|
 |**Descripción:**||||
 |**El software esta en la capacidad de satisfacer las necesidades de la institución.**
 
-#### 3.2 Requerimientos no funcionales:
+* Implementación de aplicativo web para el control de notas del C.M.E.P
+
+* Plantilla SRS–Especificación de Requerimientos
+
+|Código|Nombre|Fecha|Grado necesidad|
+|------|------|-----|---------------|
+|RF-006|interoperatividad|15-10-2019|Alto|
+|**Descripción:**||||
+|**El software contará con todos los manuales de uso y se le brindará capacitación al personal de la institución.**
+
+* Implementación de aplicativo web para el control de notas del C.M.E.P
+
+* Plantilla SRS–Especificación de Requerimientos
+
+|Código|Nombre|Fecha|Grado necesidad|
+|------|------|-----|---------------|
+|RF-007|Comprobabilidad:|15-10-2019|Alto|
+|**Descripción:**||||
+|**Se ha comprobado que software como estos han mejorado los procesos educativos en las instituciones en un 90%.**
+
+
 
 #### 3.3 Requerimientos interfaz de usuario:
 
