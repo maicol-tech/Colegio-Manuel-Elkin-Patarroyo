@@ -40,6 +40,6 @@ Son los servicios que sirven de apoyo o complemento de las actividades que desar
 |5|Monitorear el plan de contración|Se debe monitorear el plan de contratación de la empresa conforme a los reglamentos establecidos|Profesional de la gestión de la contratación|Actas firmadas de las partes involucradas|
 |6|Consolidar las modificaciones del plan de contratación|Se deben analizar las modificaciones al plan de contratación por la junta administrativa conforme a la reglamentación que los rige|Junta administrativa de la institución|Acta de aprobación de cambios|
 |7|Incluir los requerimientos en el plan de contratación actual o el de siguiente vigencia|Se deben incluir los requrimientos futuros y llevar toda la documentación necesaria de toda la contratación|Junta administrativa|Actas de los requerimientos aprobados|
-|8|Publicar las modificaciones al plan de contratación|Publicar las nuevas versiones aprobadas del plan de contratación por la junta administrativa y montar toda la documentación en colombia compra eficiente bajo las normas SECOP II|Documento publicado|
+|8|Publicar las modificaciones al plan de contratación|Publicar las nuevas versiones aprobadas del plan de contratación por la junta administrativa y montar toda la documentación en colombia compra eficiente bajo las normas SECOP II|Junta admistrativa|Documento publicado|
 
 
