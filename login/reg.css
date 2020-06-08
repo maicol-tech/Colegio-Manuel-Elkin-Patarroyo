@@ -1,22 +1,23 @@
 body{
     height: 1000px;
+    background: url(img/fondo3.jpg)center;
+    background-size: cover;
 }
 h1{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
    line-height: 30px;
-   border-radius: 10px;
-   background-color: rgb(226, 215, 200);
-   box-shadow: 2px 2px 10px #666; 
+   border-radius: 10px 10px 0 0;
+   box-shadow: 2px 2px 10px #666;
+   color: white;
 }
 .formulario{
     height: 1000px;
     width: 620px;
     margin: auto;
     margin-top: 25px;
-    box-shadow: 2px 2px 10px #666;  
+    box-shadow: 2px 2px 10px #666;
     border-radius: 10px;
-    background-color: rgb(195, 220, 224);
 }
 .titulo{
     margin: auto;
@@ -26,18 +27,20 @@ h1{
 
 
 label{
+    color: white;
     font-size: 140%;
     margin-left: 20px;
 }
 input{
-    box-shadow: 2px 2px 10px #666; 
+    box-shadow: 2px 2px 10px #666;
     float: right;
     width: 300px;
     height: 40px;
     border-radius: 10px;
    margin-left: -20px;
    display: flex;
-  
+   background: transparent;
+
 }
 .formulario .seccion{
     width: 150px;
@@ -52,7 +55,7 @@ input{
 }
 
 .formulario .direccion{
-    box-shadow: 3px 2px 3px black; 
+    box-shadow: 3px 2px 3px black;
     height: 30px;
     width: 380px;
     margin-top: -5px;
