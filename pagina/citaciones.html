@@ -2,12 +2,17 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="estilos6.css">
-    <title></title>
+    <link rel="stylesheet" href="css/estilos6.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://bootswatch.com/4/yeti/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <title>Citaciones</title>
   </head>
   <body>
     <header>
-      <img class="logo" src="img/logo.png" width="100" height="100"> <br>
+      <img class="logo" src="imagenes/logo.png" width="100" height="100"> <br>
       <h2 class="nom">I.E.C.D Manuel Elkin Patarroyo</h2>
       <ul class="nav">
         <li><a href="inicio.html">Inicio</a></li>
@@ -16,6 +21,63 @@
         <li><a href="citaciones.html">Citaciones</a></li>
       </ul>
     </header>
-    <h1>Aqui va la paginas de Citaciones</h1>
+    <article>
+    <form class="contenido-1" action="" method="post">
+      <h4>Enviar al grado</h4> <br>
+      <label for="Grado">Grado</label>
+      <select class="Grado" name="Grado">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+      </select> <br>
+      <input type="submit" name="Enviar" value="Enviar"> <br>
+    </form>
+    <form class="contenido-2" action="" method="post">
+      <h4>Enviar al curso</h4> <br>
+      <label for="Grado">Grado</label>
+      <select class="Grado" name="Grado">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+      </select>
+      <label for="Curso">Curso</label>
+      <select class="Curso" name="Curso">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+      </select> <br>
+      <input type="submit" name="Enviar"> <br>
+    </form>
+    <form class="contenido-3" action="" method="post">
+      <h4>Enviar a estudiante</h4> <br>
+      <label for="Correo">Correo:</label>
+      <input type="email" name="email" placeholder="example@gmail.com"> <br> <br>
+      <label for="Tel">Telefono:</label>
+      <input type="text" name="tel" placeholder="300*******" pattern="[0-9]*" title="Digite su celular" maxlength="10"> <br>
+      <input type="submit" name="Enviar"> <br>
+    </form>
+    </article>
+    <footer><p id="con">Contáctanos</p></footer>
   </body>
 </html>
