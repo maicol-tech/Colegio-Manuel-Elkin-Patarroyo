@@ -15,24 +15,62 @@ header{
   margin-left: 150px;
   margin-top: -70px;
 }
-.nav{
+.nav1{
   float: right;
-  margin-top: -63px;
-  padding: 0px;
-  margin-right: 40px;
+  margin-top: 5pc;
+  padding: 0;
+  margin-left: 750px;
+  width: 300px;
 }
-.nav li{
+.nav1 li{
   display: inline;
 }
-.nav a{
+.nav1 a{
   font-size: 20px;
   padding: 0px 25px;
   text-decoration: none;
   color: black;
   font-family: monospace;
 }
-a:hover{
-  color: white;
+.hamburger{
+  min-height: 30px;
+  max-width: 50px;
+  margin-left: 75pc;
+  margin-top: -2pc;
+}
+.hamburger .nav1 , .nav1 li, .nav1 a{
+  display: none;
+}
+.hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
+    background-color: black;
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    border-radius: 5px;
+    content: '';
+    transition-timing-function: ease;
+    transition-duration: .2s;
+    transition-property: transform,opacity;
+}
+.hamburger-inner:before {
+    top: 10px;
+}
+.hamburger-inner:after {
+    top: 20px;
+
+}
+.hamburger.open .hamburger-inner {
+    transform: translate3d(0,10px,0) rotate(45deg);
+}
+.hamburger.open .hamburger-inner .nav1, .nav1 li, .nav1 a{
+    transform: translate3d(0,10px,0) rotate(-45deg);
+    display: inline;
+}
+.hamburger.open .hamburger-inner:after {
+    transform: translate3d(0,-20px,0) rotate(-90deg);
+}
+.hamburger.open .hamburger-inner:before {
+    transform: translate3d(0,-10px,0) rotate(90deg);
 }
 table{
   margin-top: 20px;
