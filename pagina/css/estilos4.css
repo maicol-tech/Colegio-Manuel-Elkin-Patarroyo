@@ -124,3 +124,22 @@ footer{
   text-align: center;
   font-weight: bold;
 }
+.dr{
+  margin-top: 10px;
+  margin-left: 245px;
+}
+.hed h2{
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+}
+.bus{
+  margin-top: -48px;
+  margin-left: 500px;
+}
+.reg{
+  margin-top: 30%;
+  margin-left: 10px;
+  position: fixed ;
+  
+}
