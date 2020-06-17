@@ -8,6 +8,7 @@ header{
   margin: auto;
   background:transparent;
 }
+<<<<<<< HEAD
 .hamburger{
   min-height: 30px;
   max-width: 50px;
@@ -65,12 +66,36 @@ header{
   display: inline;
 }
 .nav1 a{
+=======
+.nom{
+  font-style: oblique;
+  float: left;
+  margin-left: 150px;
+  margin-top: -70px;
+}
+.nav{
+  float: right;
+  margin-top: -63px;
+  padding: 0px;
+  margin-right: 40px;
+}
+.nav li{
+  display: inline;
+}
+.nav a{
+>>>>>>> a0c21df661fef38d40d612b28ff17372bab84344
   font-size: 20px;
   padding: 0px 25px;
   text-decoration: none;
   color: black;
   font-family: monospace;
 }
+<<<<<<< HEAD
+=======
+a:hover{
+  color: #B2B1B1;
+}
+>>>>>>> a0c21df661fef38d40d612b28ff17372bab84344
 .box{
   margin: auto;
   margin-top: 80px;
