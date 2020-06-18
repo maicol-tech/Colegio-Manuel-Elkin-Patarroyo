@@ -14,12 +14,20 @@
     <header>
       <img class="logo" src="imagenes/logo.png" width="100" height="100"> <br>
       <h2 class="nom">I.E.C.D Manuel Elkin Patarroyo</h2>
-      <ul class="nav">
-        <li><a href="inicio.html">Inicio</a></li>
-        <li><a href="observacion.html">Observación</a></li>
-        <li><a href="notas.html">Notas</a></li>
-        <li><a href="citaciones.html">Citaciones</a></li>
-      </ul>
+      <div class="hamburger">
+        <div class="hamburger-inner">
+          <ul class="nav1">
+          <li><a href="inicio.html">Inicio</a></li>
+          <li><a href="observacion.html">Observación</a></li>
+          <li><a href="notasp.html">Notas</a></li>
+          <li><a href="citaciones.html">Citaciones</a></li>
+        </ul></div>
+      </div>
+      <script>
+      $('.hamburger').click(function () {
+        $('.hamburger').toggleClass('open');
+      });
+      </script>
     </header>
     <div class="fotos-box">
       <h2>Fotos Institucionales</h2>
