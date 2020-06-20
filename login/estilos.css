@@ -2,12 +2,82 @@ body{
   background: url(img/fondo.jpg)center;
   background-size: cover;
 }
+header{
+  height: 100px;
+  width: 100%;
+  margin: auto;
+  background:transparent;
+  
+}
+.hamburger{
+  min-height: 30px;
+  max-width: 50px;
+  margin-left: 75pc;
+  margin-top: -3.5pc;
+}
+.hamburger .nav1 , .nav1 li, .nav1 a{
+  display: none;
+}
+.hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
+    background-color: black;
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    border-radius: 5px;
+    content: '';
+    transition-timing-function: ease;
+    transition-duration: .2s;
+    transition-property: transform,opacity;
+}
+.hamburger-inner:before {
+    top: 10px;
+}
+.hamburger-inner:after {
+    top: 20px;
+
+}
+.hamburger.open .hamburger-inner {
+    transform: translate3d(0,10px,0) rotate(45deg);
+}
+.hamburger.open .hamburger-inner .nav1, .nav1 li, .nav1 a{
+    transform: translate3d(0,10px,0) rotate(-45deg);
+    display: inline;
+}
+.hamburger.open .hamburger-inner:after {
+    transform: translate3d(0,-20px,0) rotate(-90deg);
+}
+.hamburger.open .hamburger-inner:before {
+    transform: translate3d(0,-10px,0) rotate(90deg);
+}
+
+.nom{
+  font-style: oblique;
+  margin-left: 150px;
+  margin-top: -70px;
+}
+.nav1{
+  float: right;
+  margin-top: 5pc;
+  padding: 0;
+  margin-left: 750px;
+  width: 300px;
+}
+.nav1 li{
+  display: inline;
+}
+.nav1 a{
+  font-size: 20px;
+  padding: 0px 25px;
+  text-decoration: none;
+  color: black;
+  font-family: monospace;
+}
 .box{
   margin: auto;
-  margin-top: 120px;
+  margin-top: 80px;
   text-align: center;
   border: 1px solid rgb(204, 171, 171);
-  height: 370px;
+  height: 400px;
   width: 400px;
   border-radius: 40px;
   box-shadow: 5px 5px 10px rgb(66, 58, 58);
@@ -51,7 +121,7 @@ border-bottom: 1px solid black;
 }
 .text{
   float: left;
-  margin-top: 25px;
+  margin-top: 20px;
   margin-left: 40px;
   text-decoration: none;
   line-height: 30px;
