@@ -121,6 +121,9 @@ footer{
   bottom: 0;
   position: static;
 }
+p{
+  text-align: center;
+}
 #con{
   text-align: center;
   font-weight: bold;

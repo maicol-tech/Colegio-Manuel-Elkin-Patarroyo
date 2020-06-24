@@ -108,6 +108,9 @@ footer{
   bottom: 0;
   position: static;
 }
+p{
+  text-align: center;
+}
 .contenido-1, .contenido-2, .contenido-3{
   background-color: #f1f1f1;
   border: 1px solid rgb(204, 171, 171);
