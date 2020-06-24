@@ -1,22 +1,24 @@
 body{
-  background: #D5D5D5;
+  background: url(../img/fondo.jpg)center fixed;
+  background-size: cover;
 }
 header{
-  height: 100px;
+  background: url(../img/corto.jpg)center;
+  background-size: cover;
   width: 100%;
-  margin: auto;
-  background-color: #f1f1f1;
-  border: 1px solid rgb(204, 171, 171);
-  box-shadow: 0px 0px 2px rgb(0, 0, 0, .3);
+  height: 150px;
+  border: 1px solid transparent;
 }
 .hamburger{
   min-height: 30px;
   max-width: 50px;
   margin-left: 75pc;
-  margin-top: -2pc;
+  margin-top: -2.5pc;
 }
 .hamburger .nav1 , .nav1 li, .nav1 a{
   display: none;
+  width: 40pc;
+  margin-top: 17pc;
 }
 .hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
     background-color: black;
@@ -52,8 +54,8 @@ header{
 
 .nom{
   font-style: oblique;
-  margin-left: 150px;
-  margin-top: -70px;
+  margin-top: 3.5pc;
+  margin-left: 17pc;
 }
 .nav1{
   float: right;
@@ -183,7 +185,7 @@ h4{
   font-weight: bold;
 }
 #init-1{
-  background-color: #4596a2;
+  background-color: #19D697 ;
   padding: 10px 100px;
   color: white;
   text-decoration: none;
@@ -193,7 +195,7 @@ h4{
   margin-top: 15px;
 }
 #init{
-  background-color: #E57816;
+  background-color: #D66119;
   padding: 10px 100px;
   color: white;
   text-decoration: none;
@@ -234,6 +236,6 @@ footer{
   }
   .a1, .a2, .a3, .a4{
     margin: auto;
-    margin-top: 1pc; 
+    margin-top: 1pc;
   }
 }

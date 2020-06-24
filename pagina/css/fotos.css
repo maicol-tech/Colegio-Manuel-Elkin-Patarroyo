@@ -1,19 +1,19 @@
 body{
-  background: #D5D5D5;
+  background: url(../img/fondo.jpg)center fixed;
+  background-size: cover;
 }
 header{
-  height: 100px;
+  background: url(../img/corto.jpg)center;
+  background-size: cover;
   width: 100%;
-  margin: auto;
-  background-color: #f1f1f1;
-  border: 1px solid rgb(204, 171, 171);
-  box-shadow: 0px 0px 2px rgb(0, 0, 0, .3);
+  height: 150px;
+  border: 1px solid transparent;
 }
 .nom{
   font-style: oblique;
   float: left;
-  margin-left: 150px;
-  margin-top: -70px;
+  margin-left: 15pc;
+  margin-top: 3.5pc;
 }
 .nav1{
   float: right;
@@ -36,10 +36,12 @@ header{
   min-height: 30px;
   max-width: 50px;
   margin-left: 75pc;
-  margin-top: -3.5pc;
+  margin-top: 4.5pc;
 }
 .hamburger .nav1 , .nav1 li, .nav1 a{
   display: none;
+  width: 40pc;
+  margin-top: 17pc;
 }
 .hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
     background-color: black;
@@ -81,6 +83,14 @@ header{
 }
 h2{
   text-align: center;
+}
+#file{
+  margin-left: 55pc;
+  margin-bottom: 5px;
+}
+#cam{
+  margin-left: 5px;
+  margin-bottom: -10px;
 }
 footer{
   background-color: #f1f1f1;

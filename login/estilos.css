@@ -1,5 +1,6 @@
 body{
-  background: url(img/fondo.jpg)center;
+  margin-top: 10pc;
+  background: url(img/banner.jpg)center;
   background-size: cover;
 }
 header{
@@ -7,16 +8,18 @@ header{
   width: 100%;
   margin: auto;
   background:transparent;
-  
+
 }
 .hamburger{
-  min-height: 30px;
-  max-width: 50px;
+  min-height: 60px;
+  max-width: 100px;
   margin-left: 75pc;
   margin-top: -3.5pc;
 }
 .hamburger .nav1 , .nav1 li, .nav1 a{
   display: none;
+  width: 40pc;
+  margin-top: 17pc;
 }
 .hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
     background-color: black;
@@ -51,9 +54,10 @@ header{
 }
 
 .nom{
+  font-size: 3.5pc;
   font-style: oblique;
-  margin-left: 150px;
-  margin-top: -70px;
+  margin-left: 15pc;
+  margin-top: -7pc;
 }
 .nav1{
   float: right;
