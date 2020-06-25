@@ -2,7 +2,6 @@
 
 
 ## Implementación de aplicativo web para el control de notas del C.M.E.P
----
 <h1 align="center">Logo del Software<h1>
 
 <p align="center">
