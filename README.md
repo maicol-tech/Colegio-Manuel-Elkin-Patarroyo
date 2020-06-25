@@ -1,6 +1,49 @@
-# Colegio-Manuel-Elkin-Patarroyo
+<h1 align="center">Colegio Manuel Elkin Patarroyo<h1>
+
 
 ## Implementación de aplicativo web para el control de notas del C.M.E.P
+---
+<h1 align="center">Logo del Software<h1>
+
+<p align="center">
+  <a href="">
+    <img src="img/readme_logo.jpeg" alt="logo" width="200" height="200">
+  </a>
+</p>
+
+---
+<h1 align="center">Nombre del software<h1>
+A.E.S (Administrative Educational Soft)
+---
+
+<h1 align="center">Herramientas:<h1>
+
+<p align="center">
+    <a href="Laravel">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png" alt="logo laravel" width="30" height="30">
+    </a>
+    <a href="php">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1280px-PHP-logo.svg.png" alt="Logo PHP" width="50" height="30">
+    </a>
+    <a href="github">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1024px-Octicons-mark-github.svg.png" alt="Logo github" width="30" height="30">
+    </a>
+    <a href="HTML">
+        <img src="https://cdn.iconscout.com/icon/free/png-64/html-59-225995.png" alt="Logo html" width="30" height="30">
+    </a>
+     <a href="CSS">
+        <img src="https://cdn.iconscout.com/icon/free/png-64/css-131-722685.png" alt="Logo css" width="30" height="30">
+    </a>
+      <a href="JavaScript">
+        <img src="https://cdn.iconscout.com/icon/free/png-64/javascript-1-225993.png" alt="Logo javascript" width="30" height="30">
+    </a>
+          <a href="Bootstrap">
+        <img src="https://cdn.iconscout.com/icon/free/png-64/bootstrap-226077.png" alt="Logo bootstrap" width="30" height="30">
+    </a>
+
+
+</p>
+
 
 ---
 
