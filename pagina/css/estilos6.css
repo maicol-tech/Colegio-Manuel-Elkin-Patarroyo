@@ -123,3 +123,12 @@ p{
   text-align: center;
   font-weight: bold;
 }
+footer .im{
+  height: 100px;
+  width:100px;
+  border-radius: 50%;
+  float: right;
+  margin-top: -40px;
+  margin-right: 30px;
+  object-fit: cover;
+}

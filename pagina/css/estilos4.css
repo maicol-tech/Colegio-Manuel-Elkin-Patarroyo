@@ -161,3 +161,12 @@ p{
   margin-left: 10px;
 
 }
+footer img{
+  height: 100px;
+  width:100px;
+  border-radius: 50%;
+  float: right;
+  margin-top: -40px;
+  margin-right: 30px;
+  object-fit: cover;
+}
