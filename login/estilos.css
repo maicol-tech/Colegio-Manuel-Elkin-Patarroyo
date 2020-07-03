@@ -138,3 +138,13 @@ a:hover{
   width: 100px;
   margin-top: -50px;
 }
+.fot img{
+  height: 100px;
+  width:100px;
+  border-radius: 50%;
+  float: right;
+  margin-top: -100px;
+  margin-right: 30px;
+  object-fit: cover;
+}
+
