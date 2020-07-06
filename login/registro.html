@@ -13,32 +13,32 @@
 <body>
     <div class="formulario">
 
-            <form action="" method="POST">
+            <form id="formu" action="" method="POST">
                 <h1>Crear Cuenta Institucional</h1>
                 <br>
                 <br>
                 <label for="Name">Primer Nombre:</label>
-                <input type="text" id="Name" placeholder="Ingrese primer nombre" name="Name" />
+                <input type="text" id="Name" placeholder="Ingrese primer nombre" name="Name"  pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,20}" maxlength="20" size="20" required autofocus />
                 <br>
                 <br>
                 <label for="Name">Segundo Nombre:</label>
-                <input type="text" id="Name" placeholder="Ingrese segundo nombre" name="Name" />
+                <input type="text" id="Name" placeholder="Ingrese segundo nombre" name="Name"  />
                 <br>
                 <br>
                 <label for="Name">Primer Apellido:</label>
-                <input type="text" id="Name" placeholder="Ingrese primer apellido" name="Name" />
+                <input type="text" id="Name" placeholder="Ingrese primer apellido" name="Name"  pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,20}" maxlength="20" size="20" required autofocus/>
                 <br>
                 <br>
                 <label for="Name">Segundo Apellido:</label>
-                <input type="text" id="Name" placeholder="Ingrese segundo apellido" name="Name" />
+                <input type="text" id="Name" placeholder="Ingrese segundo apellido" name="Name"  pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,20}" maxlength="20" size="20" required autofocus/>
                 <br>
                 <br>
                 <br>
                 <br>
                 <label class="dc" for="Name">Tipo de documento:</label>
-                <input class="cedula" type="number" id="Name" placeholder="Numero de Documento" name="Name" />
-                <select class="seccion" name="documento" >
-                    <option>Tipo de documento</option>
+                <input class="cedula" type="number" id="Name" placeholder="Numero de Documento" name="Name" required autofocus pattern="{0,10}" />
+                <select class="seccion" required autofocus name="documento" >
+                    <option>Seleccione Su Documento</option>
                     <option>Tarjeta de identidad</option>
                     <option>Cedula de ciudadania</option>
                     <option>Doc. extra. exp. migracion colombia</option>
@@ -48,26 +48,27 @@
                   <br>
                   <br>
                   <br>
-                  <label for="Name">Correo Electronico:</label>
-                  <input type="email" placeholder="Correo electronico" >
+                  
+                  <label  for="Name">Correo Electronico:</label>
+                  <input type="email" required  autofocus placeholder="Correo electronico" >
                   <br>
                   <br>
-                  <label for="Name">Contraseña :</label>
-                  <input type="password" placeholder="" >
+                  <label  for="Name">Contraseña :</label>
+                  <input id="con1" required autofocus type="password" placeholder="" >
                   <br>
                   <br>
                   <br>
-                  <label for="Name">Confirme su contraseña :</label>
-                  <input type="password" placeholder="" >
+                  <label  for="Name">Confirme su contraseña :</label>
+                  <input  id="con2" required autofocus type="password" placeholder="" >
                   <br>
                   <br>
                   <label for="Name">Numero telefonico:</label>
-                  <input type="number" id="Name" placeholder="Ingrese su numero de telefono" name="Name" />
+                  <input type="number" required autofocus id="Name" placeholder="Ingrese su numero de telefono" name="Name" />
                   <br>
                   <br>
                   <br>
                   <label for="Name">Seleccione su roll:</label>
-                  <select class="seccion2" name="documento">
+                  <select class="seccion2" required autofocus name="documento">
                     <option>Seleccione su roll:</option>
                     <option>Estudiante</option>
                     <option>Docente</option>
@@ -77,9 +78,23 @@
                   </select>
                   <br>
                   <div class="d2"><a href="login.html" class="btn btn-success">Regresar</a> </div>
-                  <div class="d1"> <button type="submit" class="btn btn-success">Enviar</button></div>
+                  <div class="d1"> <button onclick="calcular()"  class="btn btn-success">Enviar</button></div>
 
             </form>
     </div>
+    <script>
+      function calcular(){          
+          var valor1 = document.getElementById("con1").value
+          var valor2 = document.getElementById("con2").value
+          var formulario = document.getElementById("formu")
+          if (valor1 == valor2 && valor1 !='' && valor2 !='' && formulario !='')
+           {
+                 formulario.submit();
+          } else {
+              alert("La contraseña no coincide");
+              }
+      };
+      
+  </script>
 </body>
 </html>
