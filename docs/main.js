@@ -12,9 +12,13 @@ $(document).ready(main);
         });
     }
 
-    $('.galeria_img').click(function(e){
-        var img = e.target.src;
-        var modal = `<div class="modal"><img src="${img}" alt="" class="modal_img"><div class="modal_boton">X</div></div>`
-            $('body').append(modal);
+// Modal de  la galeria
 
+$('.galeriaIMG').click(function (e) {
+    var Imagenes = e.target.src;
+    var modal = '<div class="modal" id="modal"><img src="' + Imagenes + '" class="modal_img"><div class="modal_boton" id="modal__boton">X</div></div>'
+    $('body').append(modal);
+    $('#modal__boton').click(function() {
+        $('#modal').remove();
     })
+})   

@@ -1,5 +1,5 @@
 *{
-   box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 body{
@@ -9,7 +9,6 @@ body{
 img{
     display: block;
     max-width: 100%;
-    object-fit: cover;
 }
 
 .galeria{
@@ -19,10 +18,84 @@ img{
     justify-content: center;
 }
 
-.galeria_item{
+.galeriaIMG:hover{
+    filter: brightness(70%);
+}
+
+
+.galeriaItem{
     width: 80%;
     cursor: pointer;
     list-style: none;
+}
+
+nav{
+    background-image: repeating-linear-gradient(#2c3e50,#34495e);
+    border-radius: 8px;
+    height: 60px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+a{
+    height: 40px;
+    width: 80px;
+    display: flex;
+    border-radius: 5px;
+    background-color: #00b894;
+    margin-top: 10px;
+    margin-left: 6%;
+    font-size: 20px;
+    font-family: 'Krona One', sans-serif;
+    color: white;
+    text-decoration: none !important;
+}
+
+.label{
+    margin-top: 9px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.icon{
+    margin-top: 0;
+}
+
+i{
+    margin-right: 3px;
+    margin-left: 6px;
+    margin-top: 9px;
+}
+
+label{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 35px;
+    font-family: 'Krona One', sans-serif;
+    margin-top: 20px;
+}
+
+@media(min-width:480px){
+    .galeriaItem{
+        width: 48%;
+        margin: 5px;
+    }
+}
+
+@media(min-width:768px){
+    .galeriaItem{
+        width: 33%;
+    }
+}
+
+@media(min-width:1024px){
+    .galeriaItem{
+        width: 20%;
+    }
+
 }
 
 .modal{
@@ -45,11 +118,11 @@ img{
 .modal_boton{
     width: 50px;
     height: 50px;
-    color: #fff;
+    color: #2c3e50;
     font-size: 20px;
     line-height: 50px;
     text-align: center;
-    background: red;
+    background: #95a5a6;
     border-radius: 50%;
     cursor: pointer;
     font-weight: bold;
@@ -59,27 +132,4 @@ img{
     position: absolute;
     top: 10px;
     right: 10px;
-}
-
-@media (min-width:480px){
-    .galeria_item{
-        width: 48%;
-        margin: 5px;
-    }  
-}
-
-@media (min-width:768px){
-    .galeria_item{
-        width: 33%;
-        margin: 5px;
-    }   
-
-}
-
-@media (min-width:1024px){
-    .galeria_item{
-        width: 20%;
-        margin: 5px;
-    }   
-
 }
