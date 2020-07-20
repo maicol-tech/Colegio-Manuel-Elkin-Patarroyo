@@ -1,4 +1,6 @@
 class EstudiantesController < ApplicationController
+
+  before_action :set_estudiante, only: [:show, :edit, :update, :destroy]
   def index
     @estudiantes=Estudiante.all
   end
