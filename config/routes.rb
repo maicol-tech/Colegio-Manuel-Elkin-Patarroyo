@@ -1,7 +1,17 @@
 Rails.application.routes.draw do
 
- 
-  resources :docentes
+
+  # namespace :docentes do
+  #   get 'materias/index'
+  #   get 'materias/show'
+  #   get 'materias/new'
+  #   get 'materias/edit'
+  # end
+
+  resources :docentes do
+    resources :materias, module: :docentes
+  end
+
   resources :estudiantes do
     resources :anotaciones, module: :estudiantes
   end

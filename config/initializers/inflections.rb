@@ -7,6 +7,7 @@
 #   inflect.plural /^(ox)$/i, '\1en'
 #   inflect.singular /^(ox)en/i, '\1'
    inflect.irregular "anotacion" , "anotaciones"
+   inflect.irregular "materia" , "materias"
 #   inflect.uncountable %w( fish sheep )
  end
 

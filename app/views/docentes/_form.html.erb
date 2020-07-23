@@ -1,11 +1,10 @@
-
-<div class="col-md-6">
-  <%= simple_form_for @docente do |d| %>
-  <%= d.input :nombre %>
-  <%= d.input :apellido %>
-  <%= d.input :email %>
-  <%= d.button :submit %>
-<% end %>
-
+<div class="row">
+  <div class="col-md-6">
+    <%= simple_form_for @docente do |d| %>
+      <%= d.input :nombre %>
+      <%= d.input :apellido %>
+      <%= d.input :email %>
+      <%= d.button :submit, class: "btn btn-primary" %>
+    <% end %>
+  </div>
 </div>
-
