@@ -1,6 +1,10 @@
-<%= simple_form_for [@estudiante, @anotacion] do |f| %>
-<%= f.input :fecha %>
-  <%= f.input :titulo %>
-  
-  <%= f.button :submit %>
-<% end %>
+<div class="row">
+  <div class="col-md-6">
+    <%= simple_form_for [@estudiante, @anotacion] do |f| %>
+      <%= f.input :fecha %>
+      <%= f.input :titulo %>
+
+      <%= f.button :submit, class:"btn btn-primary" %>
+    <% end %>
+  </div>
+</div>

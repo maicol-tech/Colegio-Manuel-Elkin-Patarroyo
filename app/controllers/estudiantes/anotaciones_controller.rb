@@ -1,4 +1,5 @@
 class Estudiantes::AnotacionesController < ApplicationController
+
   before_action :set_estudiante
   before_action :set_anotacion, only: [:show, :edit, :update, :destroy]
 
@@ -39,6 +40,7 @@ class Estudiantes::AnotacionesController < ApplicationController
   end
 
   private
+
   def set_anotacion
     @anotacion = @estudiante.anotaciones.find(params[:id])
   end
@@ -50,5 +52,5 @@ class Estudiantes::AnotacionesController < ApplicationController
   def anotacion_params
     params.require(:anotacion).permit(:titulo,:fecha)
   end
-  
+
 end
