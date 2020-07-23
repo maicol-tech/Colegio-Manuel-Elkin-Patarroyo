@@ -1,17 +1,11 @@
-<%= form_for @docente do |d| %>
-  <div >
-    <%= d.label :nombre %>
-    <%= d.text_field :nombre %>
-  </div>
-  <div >
-    <%= d.label :apellido %>
-    <%= d.text_field :apellido %>
-  </div>
-  <div >
-    <%= d.label :Email %>
-    <%= d.text_field :email %>
-  </div>
-  <div >
-      <%= d.submit %>
-  </div>
+
+<div class="col-md-6">
+  <%= simple_form_for @docente do |d| %>
+  <%= d.input :nombre %>
+  <%= d.input :apellido %>
+  <%= d.input :email %>
+  <%= d.button :submit %>
 <% end %>
+
+</div>
+

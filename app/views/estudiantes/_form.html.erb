@@ -1,25 +1,15 @@
-<%= form_for @estudiante do |e| %>
-  <div >
-    <%= e.label :nombre %>
-    <%= e.text_field :nombre %>
-  </div>
-  <div >
-    <%= e.label :apellido %>
-    <%= e.text_field :apellido %>
-  </div>
-  <div >
-    <%= e.label :telefono %>
-    <%= e.text_field :telefono %>
-  </div>
-   <div >
-    <%= e.label :direccion %>
-    <%= e.text_field :direccion %>
-  </div>
-   <div >
-    <%= e.label :correo %>
-    <%= e.text_field :correo %>
-  </div>
-  <div >
-      <%= e.submit %>
-  </div>
-<% end %>
+
+
+<div class="col-md-6">
+    
+  <%= simple_form_for @estudiante do |f| %>
+  <%= f.input :nombre %>
+  <%= f.input :apellido %>
+  <%= f.input :telefono %>
+  <%= f.input :direccion %>
+  <%= f.input :correo %>
+  <%= f.button :submit %>
+  <% end %>
+
+</div>
+
