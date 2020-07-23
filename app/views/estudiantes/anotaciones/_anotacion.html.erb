@@ -1,0 +1,15 @@
+<tr>
+  <td>
+    <%= link_to anotacion.fecha, estudiante_anotacion_path(@estudiante, anotacion) %>
+  </td>
+  <td>
+    <%= anotacion.titulo%>
+  </td>
+  <td>
+    
+    <%= link_to 'Edit', edit_estudiante_anotacion_path(@estudiante, anotacion) %>
+    <%= link_to "Eliminar", estudiante_anotacion_path(@estudiante, anotacion), method: :delete, data: {confirm: "Ojo!!"} %>
+
+        
+  </td>
+</tr>

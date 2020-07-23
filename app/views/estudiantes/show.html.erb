@@ -1,4 +1,9 @@
 <h1>Estudiantes#show</h1>
+
+<%= link_to new_estudiante_anotacion_path(@estudiante,@anotacion), class: "btn btn-info btn-sm mb-3" do %>
+  Registrar Anotacion
+  <%= fa_icon "plus" %>
+<% end %>
 <p>
   <strong>Nombre:</strong>
   <%= @estudiante.nombre %>
@@ -25,3 +30,5 @@
 </p>
 
 <%= link_to  "Todos los estudiantes", estudiantes_path %>
+<%= link_to  "Anotaciones", estudiante_anotaciones_path(@estudiante) %>
+

@@ -1,0 +1,2 @@
+module Estudiantes::AnotacionesHelper
+end

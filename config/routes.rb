@@ -1,10 +1,9 @@
 Rails.application.routes.draw do
 
-  get 'estudiantes/index'
-  get 'estudiantes/show'
-  get 'estudiantes/new'
-  get 'estudiantes/edit'
+ 
   resources :docentes
-  resources :estudiantes
+  resources :estudiantes do
+    resources :anotaciones, module: :estudiantes
+  end
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

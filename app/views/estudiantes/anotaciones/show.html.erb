@@ -1,0 +1,14 @@
+<h1>Estudiantes::Anotaciones#show</h1>
+<p>
+  <strong>Anotacion:</strong>
+  <%= @anotacion.fecha %>
+  
+</p>
+
+<p>
+  <strong>Titulo:</strong>
+  <%= @anotacion.titulo %>
+  
+</p>
+
+<%= link_to  "Anotaciones", estudiante_anotaciones_path(@estudiante) %>
