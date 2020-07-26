@@ -2,7 +2,7 @@
 
 |Nombre del proyecto|Implementación de aplicativo web para el control de notas del C.M.E.P|
 |-------------------|---------------------------------------------------------------------|
-|Promototres|Michael Menco Cuello 
+|Promototres|Michael Menco Cuello
 ||Jose Gonzales Villareal|
 ||Jhon Rivera Beleño|
 ||Mateo Balza Valega|
@@ -18,8 +18,3 @@
 |Propósito:|El principal objetivo con este documento es describir lo que acordamos con el cliente con el fin de desarrollar el software a la medida de los requerimientos del cliente y optimizar los procesos educativos de la institución.|
 |Atención y Dependencias:|Este sistema permitirá organizar los procesos en la institución, enfocandose en la parte de registro de las notas y la citación a los acudientes a reuniones que involucren a sus acudidos, tambien con este software se apoyará a los docentes a tener más control de la asistencia y la parte desciplinaria de los alumnos.|
 |Fecha:|**22/07/201**>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>**21/07/2021**
-
-
-
-
-
