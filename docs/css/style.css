@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none !important;
+}
+
 body::-webkit-scrollbar{
     width: 8px;
     

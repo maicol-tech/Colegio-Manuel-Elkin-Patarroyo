@@ -1,0 +1,2 @@
+module Docentes::MateriasHelper
+end
