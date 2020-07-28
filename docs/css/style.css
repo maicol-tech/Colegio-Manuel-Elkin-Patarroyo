@@ -190,3 +190,38 @@ small{
     }
 
 }
+.msj{
+    width: 300px;
+    height: 150px;
+    border: solid 1px gray;
+    
+    
+
+}
+.btn{
+    height: 30px;
+    background-color: rgb(246, 246, 246);
+    border: solid 1px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow:gray 2px 3px 2px;
+    margin-left: 40%;
+    margin-top:10px;
+    
+}
+h6{
+    color: whitesmoke;
+    line-height: 30px;
+    background-color: gray;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#cor{
+    margin-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#ar{
+    height: 30px;
+}
+.cor1{
+    margin-left: 20px;
+}

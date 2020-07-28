@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  devise_for :users
+  root to: "estudiantes#index"
 
   # namespace :docentes do
   #   get 'materias/index'
