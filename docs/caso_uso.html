@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/469b5dd35e.js" crossorigin="anonymous"></script>s
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Caso de uso</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <a href="documentacion.html" class="btn btn-success"><i class="fas fa-backward mr-1 mt-10"></i>Atras</a>
+                <table class="table table-striped mt-5">
+                    <thead class="thead-dark">
+                        <th>Cod-2020</th>
+                        <th>Seguimiento de notas y asistencia</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Versión:</strong></td>
+                            <td>1.1.0 beta </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Dependencias:</strong></td>
+                            <td>
+                                <ul>
+                                    <li>Seguimiento de notas</li>
+                                    <li>Seguimiento de asistencia</li>
+                                    <li>Observaciones diarias</li>
+                                    <li>Boletines virtuales</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Precondición:</strong></td>
+                            <td>El usuario debe estar registrado en la base y ser participante activo de la institución educativa.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Descripción:</strong></td>
+                            <td>El sistema presentará el siguiente comportamiento el cual será descrito en el caso de uso.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Secuencia normal:</strong></td>
+                            <td>
+                                <ol>
+                                    <li>Ingresar al sistema.</li>
+                                    <li>Se solicitará su identificación y su rol</li>
+                                    <li>Se mostrará interfaz según su rol.</li>
+                                    <li>Podrá acceder a la información según su rol.</li>
+                                    <li>El sistema le notificará si tiene alguna anotación.</li>
+                                    <li>Podrán acceder a la información de eventos culturales y más.</li>
+                                    <li>Se generarán boletines.</li>
+                                    <li>La entrega de notas los docentes hacia los estudiantes.</li>
+                                </ol>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Postcondición:</strong></td>
+                            <td>Los usuarios podrán acceder a la información académica, para poder llevar un control del flujo de las notas y asistencias para hacer mas personalizados los planes de mejoramiento. </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Excepciones:</strong></td>
+                            <td>
+                                <ol>
+                                    <li>Olvide su contraseña.
+                                        <ul>
+                                            <li>1.1 Se encuentre bloqueado por el sistema.</li>
+                                        </ul>
+                                    </li>
+                                    <li>Los datos no coincidan.</li>
+                                    <li>Ninguna.</li>
+                                    <li>Ninguna</li>
+                                    <li>La anotación no sea coherente con su rendimiento o comportamiento.
+                                        <ul>
+                                            <li>5.1 El docente se equivoque de estudiante.</li>
+                                        </ul>
+                                    </li>
+                                    <li> Se cite a un evento en una fecha no establecida.
+                                        <ul>
+                                            <li>6.1 El administrador publique un evento por equivocación.</li>
+                                        </ul>
+                                    </li>
+                                    <li>Ninguna.</li>
+                                    <li>Ninguna</li>
+                                </ol>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Comentarios:</strong></td>
+                            <td>La información de carácter académico será proporcionada por los docentes y debe coherente con el rendimiento del estudiante, para poder ser verificada y aprobada.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
