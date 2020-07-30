@@ -1,5 +1,6 @@
 class EstudiantesController < ApplicationController
 
+  before_action :authenticate_user!
   before_action :set_estudiante, only: [:show, :edit, :update, :destroy]
   def index
     @estudiantes=Estudiante.all
@@ -19,7 +20,7 @@ class EstudiantesController < ApplicationController
     else
       render :new
     end
-    
+
   end
 
   def update
@@ -29,7 +30,7 @@ class EstudiantesController < ApplicationController
       render :edit
     end
   end
-  
+
   def destroy
     @estudiante.destroy
     redirect_to estudiantes_path
