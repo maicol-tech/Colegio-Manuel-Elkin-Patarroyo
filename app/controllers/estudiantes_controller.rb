@@ -1,4 +1,5 @@
 class EstudiantesController < ApplicationController
+  before_action :authenticate_user!
 
   before_action :authenticate_user!
   before_action :set_estudiante, only: [:show, :edit, :update, :destroy]
