@@ -17,7 +17,7 @@ class EstudiantesController < ApplicationController
   def create
     @estudiante = Estudiante.new(estudiante_params)
     if @estudiante.save
-      redirect_to estudiantes_path
+      redirect_to estudiantes_path, success: "Estudiante creado"
     else
       render :new
     end
@@ -26,7 +26,7 @@ class EstudiantesController < ApplicationController
 
   def update
     if @estudiante.update(estudiante_params)
-      redirect_to estudiantes_path
+      redirect_to estudiantes_path, info: "Estudiante editado"
     else
       render :edit
     end
@@ -34,7 +34,8 @@ class EstudiantesController < ApplicationController
 
   def destroy
     @estudiante.destroy
-    redirect_to estudiantes_path
+
+    redirect_to estudiantes_path, danger: "Estudiante Eliminado"
   end
 
   def edit
