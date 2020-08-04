@@ -1,7 +1,10 @@
-<div class="row center-xs">
-  <div class="col-xs-8 col-md-6">
+<div class="container p-3">
+  <div class="row">
+    <div class="col-md-4 mx-auto">
+      <div class="card">
+        <div class="card-body">
     <div class="box">
-      <h2>Log in</h2>
+      <h2 align="center">Log in</h2>
 
       <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
         <div class="form-inputs">
@@ -16,11 +19,14 @@
         </div>
 
         <div class="form-actions">
-          <%= f.button :submit, "Log in", class:"btn be-blue white"%>
+          <%= f.button :submit, "Log in", class:"btn btn-success btn-md block-md"%>
         </div>
       <% end %>
 
       <%= render "devise/shared/links" %>
     </div>
   </div>
+</div>
+</div>
+</div>
 </div>
