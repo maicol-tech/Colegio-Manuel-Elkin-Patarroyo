@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  get 'inicio/home'
   devise_for :users
   root to: "estudiantes#index"
 

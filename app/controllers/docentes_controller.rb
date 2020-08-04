@@ -1,5 +1,5 @@
 class DocentesController < ApplicationController
-
+  before_action :authenticate_user!
   before_action :set_docente, only: [:show, :edit, :update, :destroy]
 
   def index
@@ -17,7 +17,7 @@ class DocentesController < ApplicationController
   def create
     @docente = Docente.new(docente_params)
     if @docente.save
-      redirect_to docentes_path
+      redirect_to docentes_path, success: "Profesor creado"
     else
       render :new
     end
@@ -29,7 +29,7 @@ class DocentesController < ApplicationController
 
   def update
     if @docente.update(docente_params)
-      redirect_to docentes_path
+      redirect_to docentes_path, info: "Profesor editado"
     else
       render :edit
     end
@@ -37,7 +37,7 @@ class DocentesController < ApplicationController
 
   def destroy
     @docente.destroy
-    redirect_to docentes_path
+    redirect_to docentes_path, danger: "Profesor eliminado"
   end
 
   private
