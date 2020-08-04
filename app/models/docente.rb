@@ -1,3 +1,3 @@
 class Docente < ApplicationRecord
-  has_many :materias
+  has_many :materias, dependent: :destroy
 end
