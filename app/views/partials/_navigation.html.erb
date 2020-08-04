@@ -11,22 +11,18 @@
       <li class="nav-item ml-2 active">
         <a class="navbar-nav p-1 menu"><%= link_to  "Profesores", docentes_path %></a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown link
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
+       <li class="nav-item ml-2 active">
+        <a class="navbar-nav p-1 menu"><%= link_to  "Cursos",cursos_path %></a>
       </li>
+      
     </ul>
     <ul class="navbar-nav ml-auto">
       <%if user_signed_in? %>
-        <li>
-          <%=link_to "Cerrar sesión", destroy_user_session_path, method: :delete%>
-        </li>
+      <li class="nav-item dropdown">
+         <a class="dropdown-item"><%=link_to "Cerrar sesión", destroy_user_session_path, method: :delete%></a>
+        
+      </li>
+        
       <%end%>
     </ul>
   </div>
