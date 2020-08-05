@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
 
+  resources :sedes
   get 'inicio/home'
   devise_for :users
   root to: "inicio#index"

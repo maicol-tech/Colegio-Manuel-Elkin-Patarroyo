@@ -3,7 +3,7 @@
     <div class="col-md-4 mx-auto">
       <div class="card">
         <div class="card-body">
-<h3>Forgot your password?</h3>
+<h3>¿Olvidaste la contraseña?</h3>
 
 <%= simple_form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
   <%= f.error_notification %>
@@ -16,7 +16,7 @@
   </div>
 
   <div class="form-actions">
-    <%= f.button :submit, "Reset", class:'btn btn-success btn-md block-md' %>
+    <%= f.button :submit, "Reset", class:'btn btn-success btn-md btn-block' %>
   </div>
 <% end %>
 
