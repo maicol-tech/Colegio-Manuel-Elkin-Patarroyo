@@ -13,6 +13,11 @@
         <div class="row">
             <div class="col-md-12">
                 <a href="documentacion.html" class="btn btn-success"><i class="fas fa-backward mr-1 mt-10"></i>Atras</a>
+
+                <!--Caso de uso general del sistema -->
+
+                <h2 class="text-center">Caso de uso general</h2>
+
                 <table class="table table-striped mt-5">
                     <thead class="thead-dark">
                         <th>Cod-2020</th>
@@ -21,7 +26,7 @@
                     <tbody>
                         <tr>
                             <td><strong>Versión:</strong></td>
-                            <td>1.1.0 beta </td>
+                            <td>1.2.1 beta </td>
                         </tr>
                         <tr>
                             <td><strong>Dependencias:</strong></td>
@@ -91,6 +96,132 @@
                         <tr>
                             <td><strong>Comentarios:</strong></td>
                             <td>La información de carácter académico será proporcionada por los docentes y debe coherente con el rendimiento del estudiante, para poder ser verificada y aprobada.</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <!-- Caso de uso de usuario admintrador-->
+
+                <h2 class="text-center">Caso de uso Administrador:</h2>
+                <br>
+
+                <table class="table table-striped">
+                    <thead class="thead-dark">
+                        <th>cod-2020-admin</th>
+                        <th>Usuario administrador</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Versión</strong></td>
+                            <td>1.2.1 Beta</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Dependencias</strong></td>
+                            <td>Adminstración del sistema.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Precondición</strong></td>
+                            <td>El usuario debe estar registrado en la base y ser participante activo de la institución educativa.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Descripción</strong></td>
+                            <td>Se presentará el comportamiento del usuario administrador</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Secuencia normal</strong></td>
+                            <td>
+                                <ol>
+                                    <li>El administrador entre al sistema.</li>
+                                    <li>El sistema valida que tenga los permisos</li>
+                                    <li>Gestione el sistema</li>
+                                    <li>inscribir a un usuario</li>
+                                    <li>Anuncia las fechas importantes</li>
+                                </ol>
+                            </td>
+                            <tr>
+                                <td><strong>Postcondición</strong></td>
+                                <td>El usuario admin una vez se verifiquen sus permisos podrá administrar el sistema siguiendo las reglas internas de la institución.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Excepciones</strong></td>
+                                <td>
+                                    <ol>
+                                        <li>olvide su contraseña</li>
+                                        <li>El sistema no valide sus permisos</li>
+                                        <li>Ninguna</li>
+                                        <li>Se equivoque de rol</li>
+                                        <li>Anuncie una fecha diferente</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>Comentarios</strong></td>
+                                <td>Toda la información de la institución sera manejada de manera responsable por el usuario administrador.</td>
+                            </tr>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <!--Caso de uso de usario docente-->
+
+                <h2 class="text-center">Caso de uso Docente:</h2>
+                <br>
+
+                <table class="table table-striped">
+                    <thead class="thead-dark">
+                        <th>cod-2020-doc</th>
+                        <th>Usario Docente</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Versión</strong></td>
+                            <td>1.2.1 Beta</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Dependencias</strong></td>
+                            <td>Manejo de las notas y asistencia.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Secuencia normal</strong></td>
+                            <td>
+                                <ol>
+                                    <li>Ingrese al sistema</li>
+                                    <li>Cargue su interfaz de usuario</li>
+                                    <li>Ingrese las notas</li>
+                                    <li>Modifique las notas</li>
+                                    <li>Cree anotaciones</li>
+                                    <li>Cree los reportes academicos y disciplinarios.</li>
+                                </ol>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Postcondición</strong></td>
+                            <td>El docente deberá ser el encargado de manejar el flujo de notas y asistencia según su materia</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Exepciones</strong></td>
+                            <td>
+                                <ol>
+                                    <li>Se le olvide su contraseña</li>
+                                    <li>El sistema no valide sus permisos</li>
+                                    <li>Se equivoque de curso
+                                        <ul>
+                                            <li>Se equivoque de alumno</li>
+                                        </ul>
+                                    </li>
+                                    <li>Ninguna</li>
+                                    <li>Se equivoque de alumno.
+                                        <ul>
+                                            <li>De un reporte erroneo</li>
+                                        </ul>
+                                    </li>
+                                    <li>Se equivoque de alumno</li>
+                                </ol>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Comentarios</strong></td>
+                            <td>El Docente deberá ser responsable con las notas y reportes que genere.</td>
                         </tr>
                     </tbody>
                 </table>
